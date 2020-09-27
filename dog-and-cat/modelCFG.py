@@ -1,0 +1,15 @@
+# defining configurations of the model
+model_CFG = {'train_path': 'cat-and-dog/training_set/',
+             'test_path': 'cat-and-dog/test_set/',
+             'pb_file_path': "vggs.pb",
+             'image_size': (224, 224, 3),
+             'batch_size': 64,
+             'num_epochs': 200,
+             'learning_rate': 1e-4,
+             'is_test': False,
+             'test_size': 1000,
+             'n_classes': 2,
+             'IMAGE_HEIGHT': 224,
+             'IMAGE_WIDTH': 224,
+             'IMAGE_CHANNEL': 3,
+             'keep_prob': 0.5}
